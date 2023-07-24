@@ -4,9 +4,9 @@ atleast one other number in the matrix in its row and column. alse.
 import numpy as np
 #opens a file dialog in the current folder (detailed)
 from tkinter import filedialog as fd
-#filename = fd.askopenfilename() #select the input file from Advent
-#print(filename)
-filename = '/Users/snaik/Documents/Coding/AOC/AdventofCode2022/input_0812'
+filename = fd.askopenfilename() #select the input file from Advent
+print(filename)
+
 # define a class called Treehouse a method in which is to read the txt file and maintain the matrix of numbers
 data = open(filename).readlines()
 matrix=[list(map(int, line[:-1])) for line in data]
@@ -64,4 +64,4 @@ def find_Scenic(matrix):
             score=l*r*u*d
             scenic[i,j]=score
     return(scenic)
-print(find_Scenic(martix2),np.max(find_Scenic(matrix)))
+print(f'Part 2 {np.max(find_Scenic(matrix))})
