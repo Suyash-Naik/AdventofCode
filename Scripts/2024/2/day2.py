@@ -1,3 +1,4 @@
+import sys
 def checker(nums:list)->bool:
     """This checks if a line is safe
     safe increaseing or decreasing not switching
@@ -25,7 +26,7 @@ def report_allowance(line:str)->bool:
         if checker(level[:i]+level[i+1:]):
             return True
     return False
-with open('/Users/snaik/Documents/AdventofCode/Data/2024/2/input.txt',"r") as f:
+with open(sys.argv[1],"r") as f:
     lines=f.readlines()
     
 safereps=[line for line in lines if report_strict(line)]
