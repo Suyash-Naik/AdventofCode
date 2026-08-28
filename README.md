@@ -6,7 +6,7 @@ This is the repository where I learn to code. It holds my [Advent of Code](https
 
 I have kept it that way on purpose. Read top to bottom it is a reasonable record of going from `open(filename).readlines()` and a `pandas` DataFrame used as a dictionary, to type-hinted functions, `sys.argv`, regex, and a locked `pixi` environment.
 
-This repo is maintained by me, [Dr. Suyash Naik](mailto:suyashanaik[at]gmail.com). Questions welcome by email below.
+This repo is maintained by me, [Dr. Suyash Naik](https://suyashnaik.com/). Questions welcome — see [Authors and acknowledgment](#authors-and-acknowledgment) below.
 
 ### A note on the folder names
 
@@ -85,7 +85,7 @@ The tools this repo has used across its life:
 
 ## Authors and acknowledgment
 
-* Suyash Naik: suyash.naik@ista.ac.at
+* Suyash Naik: (website)[https://suyashnaik.com/]
 
 Thanks to [@guptadivyansh](https://github.com/guptadivyansh) for sticking out the early days with me — the Day 5 commit message still says so. Thanks to Eric Wastl for building Advent of Code, which is a far better first project than any tutorial I tried.
 
