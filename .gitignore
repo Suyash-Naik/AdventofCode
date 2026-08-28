@@ -1,7 +1,3 @@
-input_0812
-Day09/input_0912
-.DS_Store
-snBaseenvironment.yml
-Data/2024/1/input.txt
-Data/2024/2/input.txt
-Data/2024/3/input.txt
+# pixi environments
+.pixi/*
+
